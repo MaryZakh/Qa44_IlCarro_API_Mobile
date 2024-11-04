@@ -17,7 +17,7 @@ public class AddNewCarTestsOkHttp implements Base_Api {
 
     TokenDto token;
 
-    @BeforeClass
+    @BeforeClass(alwaysRun = true)
     public void login() {
         RegistrationBodyDto bodyDto = RegistrationBodyDto.builder()
                 .username("margo@gmail.com")
@@ -46,7 +46,7 @@ public class AddNewCarTestsOkHttp implements Base_Api {
     }
 
 
-    @Test
+    @Test(groups = {"smoke","regress","retest"})
     public void addNewCarPositiveTest() {
         int i = new Random().nextInt(1000) + 1000;
         CarDto car = CarDto.builder()
