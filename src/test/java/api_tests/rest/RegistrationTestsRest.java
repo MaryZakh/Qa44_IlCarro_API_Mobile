@@ -2,8 +2,7 @@ package api_tests.rest;
 
 import api.AuthenticationController;
 import dto.ErrorMessageDtoString;
-import dto.RegistrationBodyDto;
-import interfaces.Base_Api;
+import dto.UserDTO;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 
@@ -16,7 +15,7 @@ public class RegistrationTestsRest extends AuthenticationController {
 
         int i = new Random().nextInt(1000) + 1000;
 
-        RegistrationBodyDto registrationBodyDto = RegistrationBodyDto.builder()
+        UserDTO registrationBodyDto = UserDTO.builder()
                 .username("john_doe" + i + "@gmail.com")
                 .password("Jjohn123456$")
                 .firstName("John")
@@ -30,7 +29,7 @@ public class RegistrationTestsRest extends AuthenticationController {
 
         int i = new Random().nextInt(1000) + 1000;
 
-        RegistrationBodyDto registrationBodyDto = RegistrationBodyDto.builder()
+        UserDTO registrationBodyDto = UserDTO.builder()
                 .username("john_doe" + i + "@gmail.com")
                 .password("")
                 .firstName("John")

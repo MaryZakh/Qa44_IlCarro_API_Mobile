@@ -1,7 +1,7 @@
 package api_tests.okhttptests;
 
 import dto.ErrorMessageDtoString;
-import dto.RegistrationBodyDto;
+import dto.UserDTO;
 import interfaces.Base_Api;
 import okhttp3.Request;
 import okhttp3.RequestBody;
@@ -21,7 +21,7 @@ public class RegistrationTestsOkHttp implements Base_Api {
     public void registrationPositiveTest() {
         int i = new Random().nextInt(1000) + 1000;
 
-        RegistrationBodyDto bodyDto = RegistrationBodyDto.builder()
+        UserDTO bodyDto = UserDTO.builder()
                 .username("steve_dow" + i + "@gmail.com")
                 .password("Steve12345$")
                 .firstName("Steve")
@@ -50,7 +50,7 @@ public class RegistrationTestsOkHttp implements Base_Api {
     public void registrationNegativeTest() {
         int i = new Random().nextInt(1000) + 1000;
 
-        RegistrationBodyDto bodyDto = RegistrationBodyDto.builder()
+        UserDTO bodyDto = UserDTO.builder()
                 .username("steve_dow" + i + "gmail.com")
                 .password("Steve12345$")
                 .firstName("Steve")

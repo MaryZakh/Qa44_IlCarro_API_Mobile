@@ -1,7 +1,7 @@
 package interfaces;
 
 import com.google.gson.Gson;
-import dto.RegistrationBodyDto;
+import dto.UserDTO;
 import okhttp3.MediaType;
 import okhttp3.OkHttpClient;
 
@@ -19,7 +19,7 @@ public interface Base_Api {
     OkHttpClient OK_HTTP_CLIENT = new OkHttpClient();
 
 
-    RegistrationBodyDto USER_LOGIN = RegistrationBodyDto.builder()
+    UserDTO USER_LOGIN = UserDTO.builder()
             .username("margo@gmail.com")
             .password("Mmar123456$")
             .build();
