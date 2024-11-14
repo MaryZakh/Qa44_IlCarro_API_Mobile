@@ -4,7 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="783d89a1-cc67-40fe-83f8-89ffd7d6b713" name="Changes" comment="" />
+    <list default="true" id="783d89a1-cc67-40fe-83f8-89ffd7d6b713" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -101,65 +104,23 @@
     "Gradle.DeleteCarTestRest.deleteCarByIdNegativeTest_WrongSerialNumber.executor": "Run",
     "Gradle.DeleteCarTestRest.deleteCarByIdPositiveTest.executor": "Run",
     "Gradle.GetAllCarsTestRest.getAllCarsPositiveTest.executor": "Run",
+    "Gradle.RegistrationTests.registrationPositiveTest.executor": "Run",
     "Gradle.RegistrationTestsOkHttp.registrationNegativeTest.executor": "Run",
     "Gradle.RegistrationTestsOkHttp.registrationPositiveTest.executor": "Run",
     "Gradle.RegistrationTestsRest.registrationNegativeTest_EmptyPassword.executor": "Run",
     "Gradle.RegistrationTestsRest.registrationPositiveTest.executor": "Run",
+    "Gradle.SplashTests.startTest.executor": "Run",
+    "Gradle.SplashTests.validateVersionTest.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "main",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "D:/Qa27/Qa27_PhoneBook"
+    "last_opened_file_path": "D:/Qa27/Qa27_Phonebook_Mobile",
+    "project.structure.last.edited": "Project",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.0"
   }
 }]]></component>
-  <component name="RunManager" selected="Gradle.DeleteCarTestRest.deleteCarByIdNegativeTest_WrongSerialNumber">
-    <configuration name="AddNewCarTestsRest.addNewCarNegstiveTest_WOSerialNumber" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value=":test" />
-            <option value="--tests" />
-            <option value="&quot;api_tests.rest.AddNewCarTestsRest.addNewCarNegstiveTest_WOSerialNumber&quot;" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
-      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
-      <DebugAllEnabled>false</DebugAllEnabled>
-      <RunAsTest>true</RunAsTest>
-      <method v="2" />
-    </configuration>
-    <configuration name="AddNewCarTestsRest.addNewCarNegstiveTest_WrongToken" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value=":test" />
-            <option value="--tests" />
-            <option value="&quot;api_tests.rest.AddNewCarTestsRest.addNewCarNegstiveTest_WrongToken&quot;" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
-      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
-      <DebugAllEnabled>false</DebugAllEnabled>
-      <RunAsTest>true</RunAsTest>
-      <method v="2" />
-    </configuration>
+  <component name="RunManager" selected="Gradle.RegistrationTests.registrationPositiveTest">
     <configuration name="DeleteCarTestRest.deleteCarByIdNegativeTest_WrongSerialNumber" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -208,7 +169,7 @@
       <RunAsTest>true</RunAsTest>
       <method v="2" />
     </configuration>
-    <configuration name="GetAllCarsTestRest.getAllCarsPositiveTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="RegistrationTests.registrationPositiveTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -221,7 +182,55 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;api_tests.rest.GetAllCarsTestRest.getAllCarsPositiveTest&quot;" />
+            <option value="&quot;mobile_tests.RegistrationTests.registrationPositiveTest&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <RunAsTest>true</RunAsTest>
+      <method v="2" />
+    </configuration>
+    <configuration name="SplashTests.startTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;mobile_tests.SplashTests.startTest&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <RunAsTest>true</RunAsTest>
+      <method v="2" />
+    </configuration>
+    <configuration name="SplashTests.validateVersionTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;mobile_tests.SplashTests.validateVersionTest&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -234,11 +243,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.RegistrationTests.registrationPositiveTest" />
+        <item itemvalue="Gradle.SplashTests.validateVersionTest" />
+        <item itemvalue="Gradle.SplashTests.startTest" />
         <item itemvalue="Gradle.DeleteCarTestRest.deleteCarByIdNegativeTest_WrongSerialNumber" />
         <item itemvalue="Gradle.DeleteCarTestRest.deleteCarByIdPositiveTest" />
-        <item itemvalue="Gradle.GetAllCarsTestRest.getAllCarsPositiveTest" />
-        <item itemvalue="Gradle.AddNewCarTestsRest.addNewCarNegstiveTest_WOSerialNumber" />
-        <item itemvalue="Gradle.AddNewCarTestsRest.addNewCarNegstiveTest_WrongToken" />
       </list>
     </recent_temporary>
   </component>
