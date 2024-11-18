@@ -4,10 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="783d89a1-cc67-40fe-83f8-89ffd7d6b713" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="783d89a1-cc67-40fe-83f8-89ffd7d6b713" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -94,6 +91,7 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Gradle.AddNewCarTests.addNewCarPositiveTest.executor": "Run",
     "Gradle.AddNewCarTestsOkHttp.addNewCarPositiveTest.executor": "Run",
     "Gradle.AddNewCarTestsRest.addNewCarNegstiveTest_WOSerialNumber.executor": "Run",
     "Gradle.AddNewCarTestsRest.addNewCarNegstiveTest_WrongToken.executor": "Run",
@@ -104,6 +102,12 @@
     "Gradle.DeleteCarTestRest.deleteCarByIdNegativeTest_WrongSerialNumber.executor": "Run",
     "Gradle.DeleteCarTestRest.deleteCarByIdPositiveTest.executor": "Run",
     "Gradle.GetAllCarsTestRest.getAllCarsPositiveTest.executor": "Run",
+    "Gradle.LoginTests.loginNegativeWrongPassword.executor": "Run",
+    "Gradle.LoginTests.loginPositiveTest.executor": "Run",
+    "Gradle.RegistrationTests.executor": "Run",
+    "Gradle.RegistrationTests.registrationNegativeTest_WOCheckBox.executor": "Run",
+    "Gradle.RegistrationTests.registrationNegativeTest_WrongEmail.executor": "Run",
+    "Gradle.RegistrationTests.registrationNegativeTest_emptyLastName.executor": "Run",
     "Gradle.RegistrationTests.registrationPositiveTest.executor": "Run",
     "Gradle.RegistrationTestsOkHttp.registrationNegativeTest.executor": "Run",
     "Gradle.RegistrationTestsOkHttp.registrationPositiveTest.executor": "Run",
@@ -120,8 +124,8 @@
     "project.structure.side.proportion": "0.0"
   }
 }]]></component>
-  <component name="RunManager" selected="Gradle.RegistrationTests.registrationPositiveTest">
-    <configuration name="DeleteCarTestRest.deleteCarByIdNegativeTest_WrongSerialNumber" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+  <component name="RunManager" selected="Gradle.AddNewCarTests.addNewCarPositiveTest">
+    <configuration name="AddNewCarTests.addNewCarPositiveTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -134,7 +138,7 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;api_tests.rest.DeleteCarTestRest.deleteCarByIdNegativeTest_WrongSerialNumber&quot;" />
+            <option value="&quot;mobile_tests.AddNewCarTests.addNewCarPositiveTest&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -145,7 +149,7 @@
       <RunAsTest>true</RunAsTest>
       <method v="2" />
     </configuration>
-    <configuration name="DeleteCarTestRest.deleteCarByIdPositiveTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="LoginTests.loginNegativeWrongPassword" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -158,7 +162,7 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;api_tests.rest.DeleteCarTestRest.deleteCarByIdPositiveTest&quot;" />
+            <option value="&quot;mobile_tests.LoginTests.loginNegativeWrongPassword&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -169,7 +173,7 @@
       <RunAsTest>true</RunAsTest>
       <method v="2" />
     </configuration>
-    <configuration name="RegistrationTests.registrationPositiveTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="LoginTests.loginPositiveTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -182,7 +186,7 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;mobile_tests.RegistrationTests.registrationPositiveTest&quot;" />
+            <option value="&quot;mobile_tests.LoginTests.loginPositiveTest&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -193,7 +197,7 @@
       <RunAsTest>true</RunAsTest>
       <method v="2" />
     </configuration>
-    <configuration name="SplashTests.startTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="RegistrationTests" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -206,7 +210,7 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;mobile_tests.SplashTests.startTest&quot;" />
+            <option value="&quot;mobile_tests.RegistrationTests&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -217,7 +221,7 @@
       <RunAsTest>true</RunAsTest>
       <method v="2" />
     </configuration>
-    <configuration name="SplashTests.validateVersionTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="RegistrationTests.registrationNegativeTest_WrongEmail" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -230,7 +234,7 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;mobile_tests.SplashTests.validateVersionTest&quot;" />
+            <option value="&quot;mobile_tests.RegistrationTests.registrationNegativeTest_WrongEmail&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -243,11 +247,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Gradle.RegistrationTests.registrationPositiveTest" />
-        <item itemvalue="Gradle.SplashTests.validateVersionTest" />
-        <item itemvalue="Gradle.SplashTests.startTest" />
-        <item itemvalue="Gradle.DeleteCarTestRest.deleteCarByIdNegativeTest_WrongSerialNumber" />
-        <item itemvalue="Gradle.DeleteCarTestRest.deleteCarByIdPositiveTest" />
+        <item itemvalue="Gradle.AddNewCarTests.addNewCarPositiveTest" />
+        <item itemvalue="Gradle.LoginTests.loginNegativeWrongPassword" />
+        <item itemvalue="Gradle.LoginTests.loginPositiveTest" />
+        <item itemvalue="Gradle.RegistrationTests" />
+        <item itemvalue="Gradle.RegistrationTests.registrationNegativeTest_WrongEmail" />
       </list>
     </recent_temporary>
   </component>
